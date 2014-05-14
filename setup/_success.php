@@ -1,0 +1,1 @@
+<?php include $serverAddress.'_quicksiteMasterFiles/setup/_success.php' ?>
