@@ -1,7 +1,7 @@
 <?php 
 
   $sitePath = realpath(dirname(__FILE__));
-  $pathPartsArray = split("/",$sitePath);
+  $pathPartsArray = explode("/",$sitePath);
   unset($pathPartsArray[count($pathPartsArray) - 1]);
   $sitePath = join("/",$pathPartsArray);
   unset($pathPartsArray[count($pathPartsArray) - 1]);
